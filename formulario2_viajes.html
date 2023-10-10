@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>FORMULARIO EXPERIENCIAS</title>
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="CSS/styles_general.css">
+        <link rel="stylesheet" href="CSS/styles_formularios.css">
+	</head>
+	<body>
+        <div>
+            <header> 
+                <nav><p><a href="index.html">Quienes Somos</a> - <a href="page2_destinoseuropa.html">Destinos Europa</a> 
+                    -<a href="page3_grecia.html"> Mejor destino de Europa: Grecia</a> -<a href="formulario1_contacto.html"> Contacto</a> -  
+                    <a href="formulario2_viajes.html">Comparte tu experiencia</a></p>
+                </nav>
+               <h1>VIAJEROS POR EUROPA</h1>
+               <p>Este es el block para aprender todo sobre Europa y compartir las propias experiencias
+                 para ayudar a los demás a conocer mejor cada rincón de Europa.</p>   
+            </header>
+        <article>
+		<h2>Comparte tus esperiencias con nosotros.</h2>
+		<p>Muchas gracias por compartir sus experiencias de tus viajes con nosotros.</p>
+        <p>*Si tiene alguna duda sobre alguno de los viajes o información de nuestro block
+            rellene el siguiente formulario y nos pondremos en contacto contigo:<a href="formulario1_contacto.html" target="_blank">formulario1_contacto </a>. Intentaremos ayudarte 
+            en todo lo que podamos. </p>
+        <p> *Si quieres compartir con nosotros una experiencia de uno de tus viajes o un restaurante 
+            o museo que haya visitado, rellene este formulario.</p>
+        </article>   
+            <form action="server.php" method="get">
+			<fieldset>
+				<legend>Primero comparte con nosotros quien eres.</legend>
+				<label for="id-name">Nombre </label><br>
+				<input type="text" name="name" id="id-name" required><br><br>
+				<label for="id-mail">Mail: </label>
+				<input type="email" name="mail" id="id-mail" required><br><br>
+			</fieldset>
+            <br>
+				<label for="id-place">Pais </label>
+				<select id="id-place" name="place">
+ 					<option>Albania</option>
+ 					<option>Andorra</option>
+ 					<option>Armenia</option>
+                     <option>Austria</option>
+                     <option>Azerbaijan</option>
+                     <option>Belarus</option>
+                     <option>Belgica</option>
+                     <option>Bosnia y Herzegovina</option>
+                     <option>Bulgaria</option>
+                     <option>Croacia</option>
+                     <option>Cyprus</option>
+                     <option>Chequia</option>
+                     <option>Dinamarca</option>
+                     <option selected>España</option>
+                     <option>Estonia</option>
+                     <option>Finlandia</option>
+                     <option>Francia</option>
+                     <option>Georgia</option>
+                     <option>Alemania</option>
+                     <option>Grecia</option>
+                     <option>Hungaria</option>
+                     <option>Islandia</option>
+                     <option>Irlanda</option>
+                     <option>Italia</option>
+                     <option>Inglaterra</option>
+                     <option>Kazakhstan</option>
+                     <option>Kosovo</option>
+                     <option>Latvia</option>
+                     <option>Liechtenstein</option>
+                     <option>Lithuania</option>
+                     <option>Luxenburgo</option>
+                     <option>Malta</option>
+                     <option>Moldovia</option>
+                     <option>Monaco</option>
+                     <option>Montenegro</option>
+                     <option>Netherlands</option>
+                     <option>North Macedonia</option>
+                     <option>Noruega</option>
+                     <option>Polonia</option>
+                     <option>Portugal</option>
+                     <option>Romania</option>
+                     <option>Russia</option>
+                     <option>San Marino</option>
+                     <option>Serbia</option>
+                     <option>Slovakia</option>
+                     <option>Slovenia</option>
+                     <option>Suezia</option>
+                     <option>Suiza</option>
+                     <option>Turquia</option>
+                     <option>Ucrania</option>
+                     <option>Vatican City</option>
+				</select>
+                <p>Fecha en la que realizaste tu viaje.</p>
+				<input type="date" name="year" id="id-year" value="2023-05-25" required><br>
+				<br><label for="range">Tu nivel de satisfaccion con ese viaje.</label><br>
+                <input type="range" id="range" name="range" min="0" max="100" step="1">
+				<br><br>
+                <textarea name="messajes" rows="9" cols="37" placeholder="Mensaje"></textarea>
+			<br>
+			<input type="checkbox" name="conditions" id="id-conditions" value="1" required>
+			<label for="id-conditions">I accept the conditions</label>
+			<br><br>
+			<input type="submit" name="Enviar" value="ENVIAR" >
+		</form>
+        <footer>
+            <p><strong>Posts mas leidos y recomendados de viajeros por Europa.</strong></p>
+            <a href="page2_destinoseuropa.html"> <p>-Top mejores destinos de Europa</p></a>
+            <a href="page3_grecia.html"><p>-Grecia</p></a>
+            <p><strong>Enlaces de intenes</strong></p>
+            <a href="index.html"><p>-Quienes somos.</p> </a>
+            <p><strong>Contacta con nosotros</strong></p>
+            <a href="formulario1_contacto.html"><p>-Envianos un mensaje</p></a>
+            <a href="formulario2_viajes.html"><p>-Tu opinion sobre los destinos y esperiencias que has visitado y experiencias que has tenido</p></a>
+        </footer>
+    </div>
+	</body>
+</html>

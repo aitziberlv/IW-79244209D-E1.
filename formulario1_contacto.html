@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>FORMULARIO CONTACTO</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="CSS/styles_general.css">
+		<link rel="stylesheet" href="CSS/styles_formularios.css">
+	</head>
+	<body>
+	<div> 
+		<header> 
+            <nav><p><a href="index.html">Quienes Somos</a> - <a href="page2_destinoseuropa.html">Destinos Europa</a> 
+				-<a href="page3_grecia.html"> Mejor destino de Europa: Grecia</a> -<a href="formulario1_contacto.html"> Contacto</a> -  
+				<a href="formulario2_viajes.html">Comparte tu experiencia</a></p>
+			</nav>
+            <h1>VIAJEROS POR EUROPA</h1>
+            <p>Este es el block para aprender todo sobre Europa y compartir las propias experiencias
+                 para ayudar a los demás a conocer mejor cada rincón de Europa.</p>   
+        </header>
+		<section>
+		<h2>Contacto</h2>
+		
+		<p>Muchas gracias por contactar con nosotros.</p>
+        <p>*Si tiene alguna pregunta sobre alguno de los viajes o la información de nuestro bloque
+			rellene este formulario y nos pondremos en contacto con usted. Intentaremos ayudarle 
+			en todo lo que podamos. </p>
+        <p>*Si desea compartir con nosotros una experiencia de uno de sus viajes o un restaurante, playa o museo que haya visitado, rellene el siguiente formulario 
+            o museo que haya visitado, rellene el siguiente formulario:<a href="formulario2_viajes.html" target="_self">formulario2_viajes</a> </p>
+		</section>
+		<form action="server.php" method="get">
+			
+				
+				<label for="id-name">Nombre </label><br>
+
+				<input  type="text" name="name" id="id-name" required><br><br>
+                <label for="id-surname">Apellido </label><br>
+				<input type="text" name="surname" id="id-surname" required><br><br>
+				<p>¿Es esta tu primera vez contactando con nosotros?</p>
+				<input type="radio" id="contact-Y" name="contact" value="1" checked>
+				<label for="contact-Y">Si </label> 
+				<input type="radio" id="contact-N" name="contact" value="0">
+				<label for="contact-N">No </label>
+				<br><br>
+				<label for="id-mail">Mail </label><br>
+				<input type="email" name="mail" id="id-mail" required>
+				<br><br>
+				<label for="id-asunto">Asunto </label><br>
+				<input type="text" name="asunto" id="id-asunto">
+				<br><br>
+                <textarea name="mensajes" rows="9" cols="35" placeholder="Mensaje" required></textarea>
+			<br>
+			<input type="checkbox" name="conditions" id="id-conditions" value="1" required>
+			<label for="id-conditions">Acepto todas las condiciones</label>
+			<br><br>
+			<input type="submit" name="Enviar" value="ENVIAR">
+			
+		</form>
+
+		<footer>
+			<p><strong>Posts mas leidos y recomendados de viajeros por Europa.</strong></p>
+			<a href="page2_destinoseuropa.html"> <p>-Top mejores destinos de Europa</p></a>
+			<a href="page3_grecia.html"><p>-Grecia</p></a>
+			<p><strong>Enlaces de intenes</strong></p>
+			<a href="index.html"><p>-Quienes somos.</p> </a>
+			<p><strong>Contacta con nosotros</strong></p>
+			<a href="formulario1_contacto.html"><p>-Envianos un mensaje</p></a>
+			<a href="formulario2_viajes.html"><p>-Tu opinion sobre los destinos y esperiencias que has visitado y experiencias que has tenido</p></a>
+		</footer>
+	</div>
+	</body>
+
+
+</html>

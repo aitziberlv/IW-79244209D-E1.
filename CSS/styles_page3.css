@@ -1,0 +1,15 @@
+/*Hoja de estilo para aplicarle a la pagina de >Grecia*/
+section {
+
+    display: inline-block;
+    width: 30%; 
+    padding: 3px; 
+    margin:10px;
+  
+}
+table{
+    
+    margin:10px;
+    background-color: #ffebe6;
+}
+

@@ -1,0 +1,44 @@
+/*Hoja de estilo sobre cosas especificas que tiene */
+section {
+    display: inline-block;
+    width: 47%; 
+    padding: 10px; 
+    margin-right: 3px;
+    
+    
+}
+
+
+
+article{
+    text-align: center;
+    border-bottom:1px solid black;
+    background-image: url(../imagenes/page1/mapaeuropa.png);
+    height: 150px;
+    margin: 5px;
+}
+
+
+h4{
+    border-bottom: 1px solid CadetBlue;
+}
+
+
+ul{
+    border-bottom: 1px solid black;
+}
+table{
+    
+    margin:5px;
+   
+    background-color: AliceBlue;
+}
+th{
+    border:1px solid #220033;
+   
+
+}
+td{
+    border:1px solid #220033;
+    border-style: dotted;
+}
